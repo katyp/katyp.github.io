@@ -44,9 +44,13 @@ In Chrome, we built an extension that allows a user to upload their .tsv file fr
 
 ## Validation
 
-In order to validate what we worked on, we mostly just communicated with Devva about what we were working on and what she liked vs disliked about what we did. Since it was a feature largely designed for her, it was also driven by her needs and wants, which we were able to discuss with her over video calls. Before we even started the project we had a call with her to determine the requirements of what she was hoping we would build. Taking that information and building up a prototype, we were able to take videos of what our extension and add-in did and send them to her in order to get more information about what she liked and disliked about the product we built.
+Our approach was validated with user testing. Once we had boths solutions working to some degree, we reached out to Devva and solicited feedback. She was a primary driver of the feature design, so it made sense that she would also be the primary source of validation.
 
-We were happy to get her response back, with “BOTH LOOK VERY COOL AND I WOULD USE THEM”. She liked the fact that both the add-in and extension could use a .tsv, and asked a few questions about the experience. Namely, is there an easy way to view the full configuration? Do configs get merged on import? How do we create a shortcut on the fly in Chrome? We were happy to tell her that there was an easy way to view the full configuration in an Excel file. Configs get overwritten on import, and we don’t currently have a way to create a shortcut on the fly. Since we’ve gotten feedback from her, we were able to work on import and export options in both Word and Chrome and also added a way to turn the extension off and on inside of Chrome.
+Prior to development, we had a call with Devva to determine the requirements of what she was hoping we would build. We prioritized features based on her requirements and our own evaluation of feasibility, and began building up prototypes. Once these were ready, we sent videos of the features at work and sent them to her in order to get more information about what she liked and disliked about the product we built.
+
+We were happy to get her response back, with “BOTH LOOK VERY COOL AND I WOULD USE THEM”. She liked the fact that both the add-in and extension could use a .tsv, and asked a few questions about the experience. Namely, is there an easy way to view the full configuration? Do configs get merged on import? How do we create a shortcut on the fly in Chrome? We were happy to tell her that there was an easy way to view the full configuration in an Excel file. However, configs do get overwritten on import, and we don’t currently have a way to create a shortcut on the fly in Chrome. We recognize these are further areas for improvement.
+
+Since we’ve gotten feedback from her, we were able to work on dictionary import and export options in both Word and Chrome.
 
 
 ## Learnings and future work
