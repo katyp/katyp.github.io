@@ -1,5 +1,7 @@
 # Video
 
+We have compiled a video to show off our work on the Word add-on and Chrome extension that we refer to as the "input macros" project.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Atgob7W90cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <div>
