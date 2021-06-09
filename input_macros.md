@@ -30,9 +30,14 @@ Dexterity Impaired Users](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.
 
 ## Solution
 
-For our project, we built this type of input macro functionality into both Word and Chrome/Edge via two different add-ins. In Word, we built an add-in that shows up as an extra tab in the Word ribbon. In the ribbon is a section where you can add entries as pairs of abbreviations and expansions, a section where you can import and export abbreviation - expansion pairs in the form of a .tsv file, and a section where you can view the abbreviation-expansion pairs. There is extra functionality in the right-click menu when you have text highlighted that allows you to easily add a new expansion by writing the text you want your highlighted text to expand to in the correction text box that pops up on right click. 
+For our project, we built this type of input macro functionality Word with an add-on and Chrome/Edge with an extension.
 
-TODO: Chrome detail
+In Word, we built an add-in that shows up as an extra tab in the Word ribbon. In the ribbon is a section where you can add entries as pairs of abbreviations and expansions, a section where you can import and export abbreviation - expansion pairs in the form of a .tsv file, and a section where you can view the abbreviation-expansion pairs. There is extra functionality in the right-click menu when you have text highlighted that allows you to easily add a new expansion by writing the text you want your highlighted text to expand to in the correction text box that pops up on right click. 
+
+In Chrome, we built an extension that allows a user to upload their .tsv file from Word in order to automatically expand the same set of abbreviations that they used in Word. The functionality intentionally attempts to mirror the bahaviour seen in the Office suite: an abbreviation is expanded when a non-word character is typed, and expansion can be immediately undone with Ctrl-Z if the expansion is not needed. This works on most simple websites, any time the user types in an `input` or `textarea` HTML element. The extension also intentionally has large buttons for easy targeting and click, and can be toggled on and off to prevent unwanted expansions.
+
+<img width="251" alt="Screen shot of Chrome extension. Two large buttons say 'Import Config' and 'Export Config', a label indicates that autocomplete is currently turned on, and a switch is available to toggle the extension off." src="https://user-images.githubusercontent.com/1192815/121298393-a8622f80-c8a8-11eb-97e3-79a5532a1489.png">
+
 
 ## Validation
 
