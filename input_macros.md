@@ -22,8 +22,10 @@ This style of typing using abbreviation expansions is nothing new -- Devva and o
 Interestingly, Microsoft Word used to have a feature that enabled Devva to customize her abbreviations within the autocorrect dictionary as she typed -- until the user interface was overhauled and this feature was hidden away. There is nothing state-of-the-art about keeping track of an autocorrect dictionary and giving the user access to editing that dictionary, but to many users, including Devva, this kind of feature is more useful than it’s replacement, which is an AI powered grammar, spelling, and writing style ‘Editor’ service [3]. The ‘Editor’ assumes spellcheck and autocorrect features will be used to fix errors when users attempt to type entire words, ignoring the class of users who had long been using autocorrect to apply abbreviation expansions. Thus, our focus is on giving users who employ the abbreviation expansion style of typing easy access to using and editing the autocorrect dictionary while typing. 
 
 [1] [Informing Flexible Abbreviation Expansion for Users with Motor Disabilities](https://www.researchgate.net/publication/225159894_Informing_Flexible_Abbreviation_Expansion_for_Users_with_Motor_Disabilities)
+
 [2] [A Shorthand Word Expansion System for
 Dexterity Impaired Users](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.101.8147&rep=rep1&type=pdf)
+
 [3] [Word 365 Editor Pane makes spellcheck take a very, very long time.](https://answers.microsoft.com/en-us/msoffice/forum/msoffice_word-mso_win10-mso_365hp/word-365-editor-pane-makes-spellcheck-take-a-very/3bc1f9e5-7b4a-4340-974f-e84844bd5cc5?page=1)
 
 ## Solution
