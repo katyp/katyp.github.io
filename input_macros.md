@@ -7,6 +7,7 @@
 </div>
 
 # Responses
+
 ## Introduction
 
 When Devva came and talked to us in class, she told us about how Microsoft Word had taken a backwards step in accessibility for her. At some point, she had noticed that Word had moved from a spellcheck emphasis to a grammar checking emphasis, and with that move, it became much harder to create autocorrect shortcuts. She uses autocorrect shortcuts to type long phrases briefly, allowing Word to expand her abbreviations. She asked us to bring back bits of autocorrect functionality that were now either missing entirely from Word, or hidden away in menus that took many clicks to access. Something that could translate her keyboard shortcuts into longform text in a customizable way.
@@ -33,6 +34,8 @@ Dexterity Impaired Users](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.
 For our project, we built this type of input macro functionality Word with an add-on and Chrome/Edge with an extension.
 
 In Word, we built an add-in that shows up as an extra tab in the Word ribbon. In the ribbon is a section where you can add entries as pairs of abbreviations and expansions, a section where you can import and export abbreviation - expansion pairs in the form of a .tsv file, and a section where you can view the abbreviation-expansion pairs. There is extra functionality in the right-click menu when you have text highlighted that allows you to easily add a new expansion by writing the text you want your highlighted text to expand to in the correction text box that pops up on right click. 
+
+<img width="502" alt="Screen shot of Word add-on. The usual ribbon at the top of the screen shows a section called 'AutoCorrect', with sections to add an entry, import and export configs, and view the config. The add entry section has a text box labeled 'Abbreviation', in which someone has typed 'ty', and a text box labeled 'Expansion', in which someone has typed 'Thank you'." src="https://user-images.githubusercontent.com/1192815/121298536-e8291700-c8a8-11eb-9759-141e92ed7db2.png">
 
 In Chrome, we built an extension that allows a user to upload their .tsv file from Word in order to automatically expand the same set of abbreviations that they used in Word. The functionality intentionally attempts to mirror the bahaviour seen in the Office suite: an abbreviation is expanded when a non-word character is typed, and expansion can be immediately undone with Ctrl-Z if the expansion is not needed. This works on most simple websites, any time the user types in an `input` or `textarea` HTML element. The extension also intentionally has large buttons for easy targeting and click, and can be toggled on and off to prevent unwanted expansions.
 
